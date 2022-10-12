@@ -1,6 +1,8 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 
+// Outlet renders child routes element if there is one. Blog should have child routes.
+
 function Blog() {
   return (
     <div className="home">
